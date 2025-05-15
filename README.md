@@ -4,7 +4,7 @@ Azgaar's _Fantasy Map Generator_ is a free web application that helps fantasy wr
 
 ## Sandstorm packging information / description
 
-This branch of the Fantasy-Map-Generator repository takes Azgaar's fantastic tool, and packages it for the [sandstorm](https://sandstorm.org/) platform. This makes the tool accessible from anywhere, shareable by multiple simultaneous users, and allows one map to exist side-by-side with many others. As of the 0.0.5 release it does not enable persistent storage, but the long-term goal would be to have the data persist within the sandstorm grain, which would make any map durable and accessible in a way that is difficult with the existing .map file export.
+This branch of the Fantasy-Map-Generator repository takes Azgaar's fantastic tool, and packages it for the [sandstorm](https://sandstorm.org/) platform. This makes the tool accessible from anywhere and allows one map to exist side-by-side with many others. As of the 0.0.5 release it does not enable persistent storage, but the long-term goal would be to have the data persist within the sandstorm grain, which would make any map durable and accessible in a way that is difficult with the existing .map file export.
 
 ## General Fantasy Map Generator Information
 
