@@ -2,6 +2,8 @@
 
 Azgaar's _Fantasy Map Generator_ is a free web application that helps fantasy writers, game masters, and cartographers create and edit fantasy maps.
 
+This branch of the Fantasy-Map-Generator repository takes Azgaar's fantastic tool, and packages it for the [sandstorm](https://sandstorm.org/) platform. This makes the tool accessible from anywhere, shareable by multiple simultaneous users, and allows one map to exist side-by-side with many others. As of the 0.0.5 release it does not enable persistent storage, but the long-term goal would be to have the data persist within the sandstorm grain, which would make any map durable and accessible in a way that is difficult with the existing .map file export.
+
 Link: [azgaar.github.io/Fantasy-Map-Generator](https://azgaar.github.io/Fantasy-Map-Generator).
 
 Refer to the [project wiki](https://github.com/Azgaar/Fantasy-Map-Generator/wiki) for guidance. The current progress is tracked in [Trello](https://trello.com/b/7x832DG4/fantasy-map-generator). Some details are covered in my old blog [_Fantasy Maps for fun and glory_](https://azgaar.wordpress.com).
