@@ -21,7 +21,7 @@ const pkgdef :Spk.PackageDefinition = (
 
     appVersion = 5,  # Increment this for every release.
 
-    appMarketingVersion = (defaultText = "0.0.5"),
+    appMarketingVersion = (defaultText = "0.0.7"),
     # Human-readable representation of appVersion. Should match the way you
     # identify versions of your app in documentation and marketing.
 
@@ -158,7 +158,16 @@ const pkgdef :Spk.PackageDefinition = (
   # `spk dev` will write a list of all the files your app uses to this file.
   # You should review it later, before shipping your app.
 
-  alwaysInclude = [],
+  alwaysInclude = [
+    "opt/app/components", 
+    "opt/app/config", 
+    "opt/app/heightmaps", 
+    "opt/app/images", 
+    "opt/app/issues", 
+    "opt/app/libs", 
+    "opt/app/modules", 
+    "opt/app/styles", 
+    "opt/app/utils"],
   # Fill this list with more names of files or directories that should be
   # included in your package, even if not listed in sandstorm-files.list.
   # Use this to force-include stuff that you know you need but which may
