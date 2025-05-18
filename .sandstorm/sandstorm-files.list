@@ -38,8 +38,11 @@ opt/app/charges/arrow.svg
 opt/app/charges/arrowsSheaf.svg
 opt/app/charges/badgerStatant.svg
 opt/app/charges/basilisk.svg
+opt/app/charges/bearRampant.svg
 opt/app/charges/bee.svg
 opt/app/charges/billet.svg
+opt/app/charges/boat.svg
+opt/app/charges/boat2.svg
 opt/app/charges/bone.svg
 opt/app/charges/bookClosed.svg
 opt/app/charges/bow.svg
@@ -66,17 +69,20 @@ opt/app/charges/crossCarolingian.svg
 opt/app/charges/crossCercelee.svg
 opt/app/charges/crossClechy.svg
 opt/app/charges/crossDouble.svg
+opt/app/charges/crossFitchy.svg
 opt/app/charges/crossFleury.svg
 opt/app/charges/crossFormee.svg
 opt/app/charges/crossFourchy.svg
 opt/app/charges/crossGamma.svg
 opt/app/charges/crossHummetty.svg
+opt/app/charges/crossJerusalem.svg
 opt/app/charges/crossLatin.svg
 opt/app/charges/crossMaltese.svg
 opt/app/charges/crossMoline.svg
 opt/app/charges/crossOrthodox.svg
 opt/app/charges/crossPommy.svg
 opt/app/charges/crossSaltire.svg
+opt/app/charges/crossTau.svg
 opt/app/charges/crown.svg
 opt/app/charges/crown2.svg
 opt/app/charges/doveDisplayed.svg
@@ -97,6 +103,7 @@ opt/app/charges/feather.svg
 opt/app/charges/flamberge.svg
 opt/app/charges/fleurDeLis.svg
 opt/app/charges/fly.svg
+opt/app/charges/foot.svg
 opt/app/charges/fusil.svg
 opt/app/charges/garb.svg
 opt/app/charges/gear.svg
@@ -138,6 +145,7 @@ opt/app/charges/martenCourant.svg
 opt/app/charges/mascle.svg
 opt/app/charges/mastiffStatant.svg
 opt/app/charges/millstone.svg
+opt/app/charges/monk.svg
 opt/app/charges/moonInCrescent.svg
 opt/app/charges/mullet.svg
 opt/app/charges/mullet10.svg
@@ -156,7 +164,9 @@ opt/app/charges/pegasus.svg
 opt/app/charges/pike.svg
 opt/app/charges/pillar.svg
 opt/app/charges/pineTree.svg
+opt/app/charges/pique.svg
 opt/app/charges/plaice.svg
+opt/app/charges/plough.svg
 opt/app/charges/porcupine.svg
 opt/app/charges/pot.svg
 opt/app/charges/rabbitSejant.svg
@@ -251,6 +261,7 @@ opt/app/libs/jquery-ui.min.js
 opt/app/libs/jquery.ui.touch-punch.min.js
 opt/app/libs/lineclip.min.js
 opt/app/libs/openwidget.min.js
+opt/app/libs/orbitControls.min.js
 opt/app/libs/polylabel.min.js
 opt/app/libs/rgbquant.min.js
 opt/app/libs/simplify.js
@@ -262,6 +273,8 @@ opt/app/modules/coa-generator.js
 opt/app/modules/coa-renderer.js
 opt/app/modules/cultures-generator.js
 opt/app/modules/dynamic/editors/cultures-editor.js
+opt/app/modules/dynamic/editors/religions-editor.js
+opt/app/modules/dynamic/editors/states-editor.js
 opt/app/modules/dynamic/export-json.js
 opt/app/modules/dynamic/heightmap-selection.js
 opt/app/modules/dynamic/overview/charts-overview.js
