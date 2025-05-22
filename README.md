@@ -6,6 +6,26 @@ Azgaar's _Fantasy Map Generator_ is a free web application that helps fantasy wr
 
 This branch of the Fantasy-Map-Generator repository takes Azgaar's fantastic tool, and packages it for the [sandstorm](https://sandstorm.org/) platform. This makes the tool accessible from anywhere and allows one map to exist side-by-side with many others. As of the 0.0.5 release it does not enable persistent storage, but the long-term goal would be to have the data persist within the sandstorm grain, which would make any map durable and accessible in a way that is difficult with the existing .map file export.
 
+### Instructions for local development 
+
+> git clone https://github.com/neuroradiology/Fantasy-Map-Generator
+>
+> cd Fantasy-Map-Generator
+>
+> git clone https://github.com/neuroradiology/sandstorm-file-store/
+>
+> cd sandstorm-file-store
+>
+> cargo build
+
+[TODO: finish build instructions]
+
+### Instructions for sandstorm installation
+
+Go to the [sandstorm app store](https://apps.sandstorm.io/) (you might need to [enable experimental packages](https://apps.sandstorm.io/?experimental=true)) and click "install". [](url)
+
+
+
 ## General Fantasy Map Generator Information
 
 Link: [azgaar.github.io/Fantasy-Map-Generator](https://azgaar.github.io/Fantasy-Map-Generator).
