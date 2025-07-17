@@ -47,7 +47,6 @@ const pkgdef :Spk.PackageDefinition = (
       # and (in deeper detail) in the sandstorm source code, in the Metadata section of
       # https://github.com/sandstorm-io/sandstorm/blob/master/src/sandstorm/package.capnp
       icons = (
-        # Various icons to represent the app in various contexts.
         appGrid = (svg = embed "icons/fmg_x24.svg"),
         grain = (svg = embed "icons/fmg_x128.svg"),
         market = (svg = embed "icons/fmg_x150.svg"),
@@ -55,28 +54,16 @@ const pkgdef :Spk.PackageDefinition = (
       ),
 
       website = "https://azgaar.github.io/Fantasy-Map-Generator/",
-      # This should be the app's main website url.
 
       codeUrl = "https://github.com/neuroradiology/Fantasy-Map-Generator/tree/sandstorm",
-      # URL of the app's source code repository, e.g. a GitHub URL.
-      # Required if you specify a license requiring redistributing code, but optional otherwise.
 
       license = (openSource = mit),
-      # The license this package is distributed under.  See
-      # https://docs.sandstorm.io/en/latest/developing/publishing-apps/#license
 
       categories = [games, graphics],
-      # A list of categories/genres to which this app belongs, sorted with best fit first.
-      # See the list of categories at
-      # https://docs.sandstorm.io/en/latest/developing/publishing-apps/#categories
 
       author = (
-        # Fields relating to the author of this app.
 
         contactEmail = "azgaar+sandstorm@spinsnout.com",
-        # Email address to contact for any issues with this app. This includes end-user support
-        # requests as well as app store administrator requests, so it is very important that this be a
-        # valid address with someone paying attention to it.
 
         #pgpSignature = embed "path/to/pgp-signature",
         # PGP signature attesting responsibility for the app ID. This is a binary-format detached
@@ -92,11 +79,7 @@ const pkgdef :Spk.PackageDefinition = (
         # Further details including how to set up GPG and how to use keybase.io can be found
         # at https://docs.sandstorm.io/en/latest/developing/publishing-apps/#verify-your-identity
 
-        upstreamAuthor = "Azgaar https://github.com/Azgaar",
-        # Name of the original primary author of this app, if it is different from the person who
-        # produced the Sandstorm package. Setting this implies that the author connected to the PGP
-        # signature only "packaged" the app for Sandstorm, rather than developing the app.
-        # Remove this line if you consider yourself as the author of the app.
+        upstreamAuthor = "Azgaar",
       ),
 
       #pgpKeyring = embed "path/to/pgp-keyring",
@@ -110,19 +93,10 @@ const pkgdef :Spk.PackageDefinition = (
       # Where `<key-id>` is a PGP key ID or email address associated with the key.
 
       description = (defaultText = embed "description.md"),
-      # The app's description in Github-flavored Markdown format, to be displayed e.g.
-      # in an app store. Note that the Markdown is not permitted to contain HTML nor image tags (but
-      # you can include a list of screenshots separately).
 
       shortDescription = (defaultText = "RPG map creator"),
-      # A very short (one-to-three words) description of what the app does. For example,
-      # "Document editor", or "Notetaking", or "Email client". This will be displayed under the app
-      # title in the grid view in the app market.
 
       screenshots = [
-        # Screenshots to use for marketing purposes.  Examples below.
-        # Sizes are given in device-independent pixels, so if you took these
-        # screenshots on a Retina-style high DPI screen, divide each dimension by two.
         (width = 1224, height = 865, jpeg = embed "screenshots/screenshot-01.jpg"),
         (width = 1224, height = 865, jpeg = embed "screenshots/screenshot-02.jpg"),
         (width = 1224, height = 865, jpeg = embed "screenshots/screenshot-03.jpg"),
@@ -130,9 +104,6 @@ const pkgdef :Spk.PackageDefinition = (
         (width =  554, height = 384, jpeg = embed "screenshots/screenshot-05.jpg"),
       ],
       changeLog = (defaultText = embed "changelog.md"),
-      # Documents the history of changes in Github-flavored markdown format (with the same restrictions
-      # as govern `description`). We recommend formatting this with an H1 heading for each version
-      # followed by a bullet list of changes.
     ),
   ),
 
